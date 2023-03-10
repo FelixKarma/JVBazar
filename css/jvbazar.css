@@ -1,0 +1,15 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #a7a7a7;
+}
+
+.logo.main {
+  display: block;
+}
+
+p {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+
+}
