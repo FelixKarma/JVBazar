@@ -1,0 +1,32 @@
+form {
+    text-align: center;
+    padding: 40px;
+    margin-top: 175px;
+    margin-left: 32%;
+    margin-right: 32%;
+    background-color: rgb(57, 57, 57);
+    border-radius: 10px;
+    border-style: dashed;
+
+}
+
+
+.connexion h1 {
+    margin-bottom: 30px;
+    margin-left: 30%;
+    margin-right: 30%;
+  font-size: 30px;
+  background-color: rgb(180, 180, 180);
+  border-style: double;
+}
+
+.connexion label {
+  font-size: 30px;
+    color: aliceblue;
+}
+
+.connexion input {
+    font-size: 30px;
+    background-color: rgb(180, 180, 180);
+    border-radius: 10px;
+}
