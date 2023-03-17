@@ -3,3 +3,7 @@ body {
   margin: 0;
   background-color: #a7a7a7;
 }
+ main {
+  margin-top: 150px;
+  margin-bottom: 50px;
+} 
