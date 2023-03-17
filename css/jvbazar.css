@@ -3,3 +3,24 @@ body {
   margin: 0;
   background-color: #a7a7a7;
 }
+
+.logo.main {
+  display: block;
+}
+
+main {
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+p {
+  text-align: justify;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+
