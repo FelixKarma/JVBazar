@@ -6,6 +6,10 @@ div.couleurbody {
 	margin-top: 350px;
   }
 
+h1 {
+	text-align: center;
+}
+
 /* Par défaut, une étoile est en gris,
    avec un padding et un curseur en forme de main. */
    .fa-star {
