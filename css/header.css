@@ -5,7 +5,7 @@ header { /* Global */
   width: 100%; /* Prend toute la largeur */
   top: 0%; } /* Reste en haut */
 
-div {  /* Haut du header */
+.div-header {  /* Haut du header */
   height: 85px; /* Hauteur */
   display: block; /* * */
   background-color: #353535; /* Lacrim */
