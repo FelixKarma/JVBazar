@@ -7,3 +7,6 @@ div.retourhaut {
     height: auto;   
 }
 
+p {
+  text-align: justify;
+}
