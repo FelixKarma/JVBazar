@@ -18,9 +18,6 @@ section{
   width: 40px;
   background-image:url(../img/pac-man.gif);
   background-size: cover;
-
-
-  
 }
 
 
@@ -36,11 +33,12 @@ a{color: black;
   
 
 body{
-    overflow-x : hidden;
-    padding: 0;
+  overflow-x : hidden;
+  padding: 0;
   margin: 0;
   background-image: url(../image/warhammer.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
 }
+
