@@ -13,4 +13,23 @@ main {
   margin-bottom: 50px;
 }
 
+.night-mode .ico2 {
+  background-color: #eff1f1;
+}
+.night-mode .ico1 {
+  background-color: #ffffff;
+}
+.night-mode footer {
+  background-color: #eff1f1;
+}
 
+.night-mode #connexion-img,
+.night-mode #rechercher-img,
+.night-mode #guide-img,
+.night-mode #qsn,
+.night-mode #cn,
+.night-mode #cgu,
+.night-mode #lua,
+.night-mode #logo {
+  filter: invert(100%);
+}
