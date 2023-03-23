@@ -2,10 +2,10 @@ main{
     margin: top 270px;
 }
 
-.titre-fifa{
+.titre-callofduty{
     margin-left: 10px;
 }
-.titre-nba{
+.titre-atomicheart{
     margin-left: 10px;
 }
 
@@ -20,12 +20,11 @@ img{
 }
 
 
-table{ 
+table{
     margin-left: 50px;
     border-radius: 5px;
     
 }
-
 
 
 th{
@@ -46,7 +45,7 @@ h2{
 
 
 p{ padding: 25px;
-    max-width: 35% ;
+    max-width: 30% ;
 }
 
 tr:nth-of-type(2n){

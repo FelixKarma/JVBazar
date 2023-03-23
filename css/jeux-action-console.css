@@ -2,10 +2,10 @@ main{
     margin: top 270px;
 }
 
-.titre-fifa{
+.titre-ghostrecon{
     margin-left: 10px;
 }
-.titre-nba{
+.titre-watchdogs{
     margin-left: 10px;
 }
 
@@ -20,12 +20,11 @@ img{
 }
 
 
-table{ 
+table{
     margin-left: 50px;
     border-radius: 5px;
     
 }
-
 
 
 th{
@@ -34,7 +33,7 @@ th{
     border-radius: 10px;
 }  
 
-td{flex-direction: column;
+td{
     text-align: center;
 }
 
@@ -52,3 +51,4 @@ p{ padding: 25px;
 tr:nth-of-type(2n){
     background-color: gray;
 }
+    

@@ -2,10 +2,11 @@ main{
     margin: top 270px;
 }
 
-.titre-fifa{
+.titre-f1{
     margin-left: 10px;
 }
-.titre-nba{
+
+.titre-project-cars3{
     margin-left: 10px;
 }
 
@@ -20,12 +21,11 @@ img{
 }
 
 
-table{ 
+table{
     margin-left: 50px;
     border-radius: 5px;
     
 }
-
 
 
 th{
