@@ -3,8 +3,12 @@ div.couleurbody {
   }
 
   h1.avis {
-	margin-top: 25%;
+	margin-top: 350px;
   }
+
+h1 {
+	text-align: center;
+}
 
 /* Par défaut, une étoile est en gris,
    avec un padding et un curseur en forme de main. */
