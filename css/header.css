@@ -44,7 +44,7 @@ header { /* Global */
   transition: 500ms;
   transform: scale(1.2);
 }
-img:hover { /* Quand souris sur img */
+.iLaissezUnAvis:hover, .iCGU:hover, .iContactezNous:hover, .iQuiSommeNous:hover, .iNuit:hover, .iGuide:hover, .iRechercher:hover, .iConnexion:hover { /* Quand souris sur img */
   transition: 200ms;
   transform: scale(1.05);
 }
