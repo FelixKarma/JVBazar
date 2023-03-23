@@ -5,27 +5,29 @@ header { /* Global */
   width: 100%; /* Prend toute la largeur */
   top: 0%; } /* Reste en haut */
 
-div {  /* Haut du header */
+.ico1 {
   height: 85px; /* Hauteur */
   display: block; /* * */
-  background-color: #353535; /* Lacrim */
-}
-
-.ico1 { /* Icone du haut */
+  background-color: #353535; /* Lacrim */ /* Icone du haut */
   display: flex;
   align-items: center;
   flex-direction: row-reverse;
   justify-content: space-around;
+  
 }
 
-nav { /* bas du header */
+.ico2 { /* bas du header */
   height: 20px;
   display: block;
   padding: 15px;
   background-color: #000000;
 }
 
-.ico2 { /* Icone du bas */
+.ico2 {
+  height: 20px;
+  display: block;
+  padding: 15px;
+  background-color: #000000;
   display: flex;
   align-items: center;
   flex-direction: row;
