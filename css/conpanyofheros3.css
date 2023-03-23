@@ -40,6 +40,7 @@ body{
   margin: 0;
   background-image: url(../image/company-of-heroes-3.jpg);
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
+  height: 100vh;
 
 }
