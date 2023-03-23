@@ -8,24 +8,26 @@ header { /* Global */
 .div-header {  /* Haut du header */
   height: 85px; /* Hauteur */
   display: block; /* * */
-  background-color: #353535; /* Lacrim */
-}
-
-.ico1 { /* Icone du haut */
+  background-color: #353535; /* Lacrim */ /* Icone du haut */
   display: flex;
   align-items: center;
   flex-direction: row-reverse;
   justify-content: space-around;
+  
 }
 
-nav { /* bas du header */
+.ico2 { /* bas du header */
   height: 20px;
   display: block;
   padding: 15px;
   background-color: #000000;
 }
 
-.ico2 { /* Icone du bas */
+.ico2 {
+  height: 20px;
+  display: block;
+  padding: 15px;
+  background-color: #000000;
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -42,7 +44,7 @@ nav { /* bas du header */
   transition: 500ms;
   transform: scale(1.2);
 }
-img:hover { /* Quand souris sur img */
+.iLaissezUnAvis:hover, .iCGU:hover, .iContactezNous:hover, .iQuiSommeNous:hover, .iNuit:hover, .iGuide:hover, .iRechercher:hover, .iConnexion:hover { /* Quand souris sur img */
   transition: 200ms;
   transform: scale(1.05);
 }

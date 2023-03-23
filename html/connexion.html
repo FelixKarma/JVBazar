@@ -7,14 +7,15 @@
     <link rel="stylesheet" href="../css/jvbazar.css" />
     <link rel="stylesheet" href="../css/header.css" />
     <link rel="stylesheet" href="../css/footer.css" />
-    <link rel="stylesheet" href="../css/connexion.css" />
+    <link rel="stylesheet" href="../css/connexion.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
     <title>JVBazar</title>
   </head>
   <body>
     <header>
-      <div class="ico1">
+      <div class="ico1 div-header">
         <a href="Connexion.html"><img src="../img/Connexion.png" weight="80" width="80" class="connexion" /></a>
         <a href="index.html"><img src="../img/logov2.png" weight="120" width="120" class="logo" /></a>
         <a href="Rechercher.html"><img src="../img/Rechercher.png" weight="80" width="80" class="rechercher"/></a>
@@ -26,15 +27,35 @@
     </header>
     
     <main>
-      <form class="connexion">
-        <h1>Connexion</h1>
-        <label for="Adresse e-mail">Adresse e-mail:</label>
-        <input type="text" id="Adresse e-mail" name="Adresse e-mail"><br><br>
-        <label for="Mot de passe">Mot de passe:   </label>
-        <input type="Mot de passe" id="Mot de passe" name="Mot de passe"placeholder="exemple de contenu">><br><br/>
-        <input type="submit" value="Connexion" class="Connexion"><br/><br/>
-        <input type="submit" value="Crée un compte">
-      </form>
+      <section>
+        <div class="form-box">
+            <div class="form-value">
+                <form action="">
+                    <h2>Connexion</h2>
+                    <div class="inputbox">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <input type="email" required>
+                        <label for="">Email</label>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input type="password" required>
+                        <label for="">Mot de passe</label>
+                    </div>
+                    <div class="forget">
+                        <label for=""><input type="checkbox">Se souvenir de moi  <a href="#">Mot de passe oublié</a></label>
+                      
+                    </div>
+                    <button>Connexion</button>
+                    <div class="register">
+                        <p>Je n'a pas de compte <a href="register.html">Crée un compte</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     </main>
 
     <footer>
