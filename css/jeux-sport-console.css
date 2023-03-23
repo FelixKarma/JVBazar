@@ -27,16 +27,25 @@ table{
 }
 
 
-
-th{
-    margin-left: 0px;
-    padding: 10px;
-    border-radius: 10px;
-}  
-
-td{flex-direction: column;
-    text-align: center;
+.forcesetfaiblesses {
+    display: flex;
+    justify-content:space-around;
+    padding: 20px;
 }
+
+
+table {
+    border: 1px solid;
+    border-radius: 5%;
+    border-spacing: 0px;
+    text-align: justify;
+    width: 66%;
+}
+ th, td {
+    padding: 10px;
+    width: 50%;
+ }
+
 
 
 h2{
@@ -51,4 +60,8 @@ p{ padding: 25px;
 
 tr:nth-of-type(2n){
     background-color: gray;
+}
+
+h1 {
+    text-align: center;
 }
