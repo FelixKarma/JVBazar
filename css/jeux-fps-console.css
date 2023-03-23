@@ -2,11 +2,15 @@ main{
     margin: top 270px;
 }
 
-.titre-fifa{
+.titre-callofduty{
     margin-left: 10px;
 }
-.titre-nba{
+.titre-atomicheart{
     margin-left: 10px;
+}
+
+h1 {
+    text-align: center;
 }
 
 hr{ 
@@ -20,11 +24,6 @@ img{
 }
 
 
-table{ 
-    margin-left: 50px;
-    border-radius: 5px;
-    
-}
 
 
 .forcesetfaiblesses {
@@ -32,7 +31,6 @@ table{
     justify-content:space-around;
     padding: 20px;
 }
-
 
 table {
     border: 1px solid;
@@ -46,8 +44,6 @@ table {
     width: 50%;
  }
 
-
-
 h2{
     margin-left: 20px;
 
@@ -55,7 +51,7 @@ h2{
 
 
 p{ padding: 25px;
-    max-width: 35% ;
+    max-width: 30% ;
 }
 
 tr:nth-of-type(2n){

@@ -2,10 +2,10 @@ main{
     margin: top 270px;
 }
 
-.titre-fifa{
+.titre-dead{
     margin-left: 10px;
 }
-.titre-nba{
+.titre-resident-evil{
     margin-left: 10px;
 }
 
@@ -20,19 +20,11 @@ img{
 }
 
 
-table{ 
-    margin-left: 50px;
-    border-radius: 5px;
-    
-}
-
-
 .forcesetfaiblesses {
     display: flex;
     justify-content:space-around;
     padding: 20px;
 }
-
 
 table {
     border: 1px solid;
@@ -45,9 +37,6 @@ table {
     padding: 10px;
     width: 50%;
  }
-
-
-
 h2{
     margin-left: 20px;
 

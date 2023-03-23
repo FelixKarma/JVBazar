@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="../css/header.css" />
     <link rel="stylesheet" href="../css/footer.css" />
     <link rel="stylesheet" href="../css/register.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    
+    <script src="../register.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
     <title>JVBazar</title>
@@ -18,130 +18,25 @@
   <body>
     <header class="div-header">
       <div class="ico1">
-        <a href="Connexion.html"><img src="../img/Connexion.png" weight="80" width="80" class="connexion" /></a>
+        <a href="Connexion.html"><img src="../img/Connexion.png" class="iConnexion" weight="80" width="80" class="connexion" /></a>
         <a href="index.html"><img src="../img/logov2.png" weight="120" width="120" class="logo" /></a>
-        <a href="Rechercher.html"><img src="../img/Rechercher.png" weight="80" width="80" class="rechercher"/></a>
+        <a href="Rechercher.html"><img src="../img/Rechercher.png" class="iRechercher" weight="80" width="80" class="rechercher"/></a>
       </div>
       <nav class="ico2">
-          <a href="Guide.html"><img src="../img/Guide.png" weight="90" width="90" class="guide" /></a>
-        <a href="#"><img src="../img/ph_moon-thin.png" weight="40" width="40" class="nuit" /></a>
+          <a href="Guide.html"><img src="../img/Guide.png" class="iGuide" weight="90" width="90" class="guide" /></a>
+        <a href="#"><img src="../img/ph_moon-thin.png" class="iNuit" weight="40" width="40" class="nuit" /></a>
       </nav>
     </header>
     
     <main>
-      <section class="vh-100 gradient-custom">
-        <div class="container py-5 h-100">
-          <div class="row justify-content-center align-items-center h-100">
-            <div class="col-12 col-lg-9 col-xl-7">
-              <div class="card shadow-2-strong card-registration" style="border-radius: 15px;">
-                <div class="card-body p-4 p-md-5">
-                  <h3 class="mb-4 pb-2 pb-md-0 mb-md-5">Registration Form</h3>
-                  <form>
-      
-                    <div class="row">
-                      <div class="col-md-6 mb-4">
-      
-                        <div class="form-outline">
-                          <input type="text" id="firstName" class="form-control form-control-lg" />
-                          <label class="form-label" for="firstName">First Name</label>
-                        </div>
-      
-                      </div>
-                      <div class="col-md-6 mb-4">
-      
-                        <div class="form-outline">
-                          <input type="text" id="lastName" class="form-control form-control-lg" />
-                          <label class="form-label" for="lastName">Last Name</label>
-                        </div>
-      
-                      </div>
-                    </div>
-      
-                    <div class="row">
-                      <div class="col-md-6 mb-4 d-flex align-items-center">
-      
-                        <div class="form-outline datepicker w-100">
-                          <input type="text" class="form-control form-control-lg" id="birthdayDate" />
-                          <label for="birthdayDate" class="form-label">Birthday</label>
-                        </div>
-      
-                      </div>
-                      <div class="col-md-6 mb-4">
-      
-                        <h6 class="mb-2 pb-1">Gender: </h6>
-      
-                        <div class="form-check form-check-inline">
-                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="femaleGender"
-                            value="option1" checked />
-                          <label class="form-check-label" for="femaleGender">Female</label>
-                        </div>
-      
-                        <div class="form-check form-check-inline">
-                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="maleGender"
-                            value="option2" />
-                          <label class="form-check-label" for="maleGender">Male</label>
-                        </div>
-      
-                        <div class="form-check form-check-inline">
-                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="otherGender"
-                            value="option3" />
-                          <label class="form-check-label" for="otherGender">Other</label>
-                        </div>
-      
-                      </div>
-                    </div>
-      
-                    <div class="row">
-                      <div class="col-md-6 mb-4 pb-2">
-      
-                        <div class="form-outline">
-                          <input type="email" id="emailAddress" class="form-control form-control-lg" />
-                          <label class="form-label" for="emailAddress">Email</label>
-                        </div>
-      
-                      </div>
-                      <div class="col-md-6 mb-4 pb-2">
-      
-                        <div class="form-outline">
-                          <input type="tel" id="phoneNumber" class="form-control form-control-lg" />
-                          <label class="form-label" for="phoneNumber">Phone Number</label>
-                        </div>
-      
-                      </div>
-                    </div>
-      
-                    <div class="row">
-                      <div class="col-12">
-      
-                        <select class="select form-control-lg">
-                          <option value="1" disabled>Choose option</option>
-                          <option value="2">Subject 1</option>
-                          <option value="3">Subject 2</option>
-                          <option value="4">Subject 3</option>
-                        </select>
-                        <label class="form-label select-label">Choose option</label>
-      
-                      </div>
-                    </div>
-      
-                    <div class="mt-4 pt-2">
-                      <input class="btn btn-primary btn-lg" type="submit" value="Submit" />
-                    </div>
-      
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+
     </main>
 
     <footer>
-      <a href="qui somme nous.html"><img id="opt" src="../img/Qui somme nous v2.png"width="170" ></a>
-      <a href="contactez-nous.html"><img id="opt" src="../img/Contactez nous v2.png" alt="" width="170" ></a>
-      <a href="CGU.html"><img id="opt" src="../img/CGU v2.png"" alt="" width="70" ></a>
-      <a href="Laissez un avis.html"><img id="opt" src="../img/Laissez un avis v2.png" alt="" width="170" ></a>
+      <a href="qui somme nous.html"><img id="opt" class="iQuiSommeNous" src="../img/Qui somme nous v2.png"width="170" ></a>
+      <a href="contactez-nous.html"><img id="opt" class="iContactezNous" src="../img/Contactez nous v2.png" alt="" width="170" ></a>
+      <a href="CGU.html"><img id="opt" class="iCGU" src="../img/CGU v2.png"" alt="" width="70" ></a>
+      <a href="laissezunavis.html"><img id="opt" class="iLaissezUnAvis" src="../img/Laissez un avis v2.png" alt="" width="170" ></a>
     </footer>
   </body>
 </html>
