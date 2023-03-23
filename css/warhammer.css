@@ -2,9 +2,10 @@ section{
 
     position: fixed;
     top: 35%;
-        left: 30%  
+        left: 50%;
+        transform: translateX(-50%);
+
         
-    
 }
 
 
@@ -41,4 +42,5 @@ body{
   background-image: url(../image/warhammer.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
 }

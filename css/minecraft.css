@@ -2,7 +2,8 @@ section{
 
     position: fixed;
     top: 35%;
-        left: 30%  
+        left: 50%;
+        transform: translateX(-50%);  
         
     
 }
@@ -40,7 +41,8 @@ body{
   margin: 0;
   background-image: url(../image/minecraft.jpg);
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
+  height: 100vh;
  
 
 
