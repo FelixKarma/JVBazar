@@ -1,37 +1,34 @@
 h1{
-    color: red;
+    color: rgba(182, 16, 16, 0.849);
     text-align: center;
-}
+   font-size: 40pt;}
 h2{
-    color: red;
+    color: rgba(182, 16, 16, 0.849);
+    font-size: 30pt;
      
 }
 hr{ 
     
     background-color: red;
     padding: 2px;
-    border-color: red
+    border-color: red;
+    font-size: 25pt;
+}
+h3{
+    color: rgb(218, 61, 61);
+
 
 }
-h3{color: red;}
-h4{color: red;}
-h5{color: red;}
-h6{color: red;}
-h7{color: red;}
-h8{color: red;}
-h9{color: red;}
-h10{color: red;}
-h11{color: red;}
-h12{color: red;}
-h13{color: red;}
-h14{color: red;}
-h15{color: red;}
-h16{color: red;}
-h17{color: red;}
-h18{color: red;}
-h19{color: red;}
-h20{color: red;}
-h21{color: red;}
-h22{color: red;}
-h23{color: red;}
-h24{color: red;}
+h4{
+    color: red;
+}
+.cassetoiadroite{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px; margin-top: 5px;
+    font-size: 20pt;
+}
+.centretoi {text-align: center;}
+
+p{ font-size: 20pt;
+}
