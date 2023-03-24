@@ -40,7 +40,8 @@ body{
   margin: 0;
   background-image: url(../image/red.jpg);
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
+  height: 100vh;
 
 }
 
