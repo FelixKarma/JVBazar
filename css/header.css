@@ -1,50 +1,56 @@
-
-
-header { /* Global */
+header {
+  /* Global */
   position: fixed; /* Elle bouge pas */
   width: 100%; /* Prend toute la largeur */
-  top: 0%; } /* Reste en haut */
+  top: 0%;
+} /* Reste en haut */
 
-.ico1 {  /* Haut du header */
+.ico1 {
+  /* Haut du header */
   height: 85px; /* Hauteur */
   display: block; /* * */
-  background-color: #353535; /* Lacrim */ /* Icone du haut */
+  background-color: #353535; /* Lacrim /* Icone du haut */
+  /* background-image: url("../img/banv2.png");  */
   display: flex;
   align-items: center;
   flex-direction: row-reverse;
   justify-content: space-around;
-  
-}
-
-.ico2 { /* bas du header */
-  height: 20px;
-  display: block;
-  padding: 15px;
-  background-color: #000000;
 }
 
 .ico2 {
+  /* bas du header */
   height: 20px;
   display: block;
   padding: 15px;
   background-color: #000000;
+  /*opacity: 0.5;*/
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.logo { /* Bah le logo */
+.logo {
+  /* Bah le logo */
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 50px;
 }
-.logo:hover { /* Quand souris sur logo */
+.logo:hover {
+  /* Quand souris sur logo */
   transition: 500ms;
   transform: scale(1.2);
 }
-.iLaissezUnAvis:hover, .iCGU:hover, .iContactezNous:hover, .iQuiSommeNous:hover, .iNuit:hover, .iGuide:hover, .iRechercher:hover, .iConnexion:hover { /* Quand souris sur img */
+.iLaissezUnAvis:hover,
+.iCGU:hover,
+.iContactezNous:hover,
+.iQuiSommeNous:hover,
+.iNuit:hover,
+.iGuide:hover,
+.iRechercher:hover,
+.iConnexion:hover {
+  /* Quand souris sur img */
   transition: 200ms;
   transform: scale(1.05);
 }
