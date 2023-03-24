@@ -1,6 +1,6 @@
 function toggleNightMode() {
     var body = document.querySelector('body');
-    var modeToggle = document.querySelector('#modeToggle');
+    var modeToggle = document.querySelector('#night-mode-btn');
     
     body.classList.toggle('night-mode');
     
