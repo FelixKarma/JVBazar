@@ -6,10 +6,10 @@ function toggleNightMode() {
     localStorage.setItem('isNightModeOn', isNightModeOn);
 
     if (isNightModeOn) {
-        modeToggle.src = "../img/light.png";
+        modeToggle.src = "../../../img/light.png";
         modeToggle.alt = "Désactiver le mode nuit";
     } else {
-        modeToggle.src = "../img/ph_moon-thin.png";
+        modeToggle.src = "../../../img/ph_moon-thin.png";
         modeToggle.alt = "Activer le mode nuit";
     }
 }
