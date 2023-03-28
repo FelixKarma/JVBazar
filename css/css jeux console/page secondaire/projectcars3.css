@@ -17,7 +17,7 @@ section{
   left: 0px;
   height: 40px;
   width: 40px;
-  background-image:url(../img/pac-man.gif);
+  background-image:url(../../../img/pac-man.gif);
   background-size: cover;
 
 
@@ -40,7 +40,7 @@ body{
     overflow-x : hidden;
     padding: 0;
   margin: 0;
-  background-image: url(../image/project\ cars\ 3.jpg);
+  background-image: url(../../../image/project\ cars\ 3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
