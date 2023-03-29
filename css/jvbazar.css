@@ -52,10 +52,8 @@ body {
 
 
 #carousel{
-  margin-top: 5%;
-  margin-left: 23%;
-  margin-right: 23%;
-  margin-bottom: 1%;
+  margin-top: 250px;
+  margin-bottom: 50px;
 }
 
 #disparition{
@@ -68,4 +66,12 @@ body {
 
 .taille{
   font-size: 25px;
+}
+
+.text-center{
+  margin: 0 auto;
+}
+
+.width-custom{
+  width: 1396px;
 }
