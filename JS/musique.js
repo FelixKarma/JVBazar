@@ -88,7 +88,7 @@ if(document.location.href.includes("jeuxpcaventure.html")) {
     var imagedead = document.getElementById("imagedead");
     
     imagedead.addEventListener("mouseover", function () {
-      audiodead.currentTime = 25;
+      audiodead.currentTime = 22;
       audiodead.play();
     });
     
@@ -110,4 +110,23 @@ if(document.location.href.includes("jeuxpcaventure.html")) {
       audioresident.pause();
       audioresident.currentTime = 0;
     });
+    }
+
+    //musique sur MFS dans le carousel
+
+    if(document.location.href.includes("index.html")) {
+    const carousel = document.querySelector('#carouselExampleCaptions');
+      const audio = document.querySelector('#voyagevoyage');
+    
+      carousel.addEventListener('slide.bs.carousel', function (event) {
+        // Vérifiez si la diapositive active est la dernière diapositive
+        if (event.relatedTarget.id === 'mfs') {
+          audio.currentTime = 58;
+          audio.play(); // Démarre la musique
+        } 
+        else {
+          audio.pause(); // Arrête la musique
+          audio.currentTime = 0; // Réinitialise la position de lecture
+        }
+      });
     }
