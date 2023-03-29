@@ -49,3 +49,20 @@ body {
 .night-mode #logo {
   filter: invert(100%);
 }
+
+
+#carousel{
+  margin-top: 5%;
+  margin-left: 23%;
+  margin-right: 23%;
+  margin-bottom: 1%;
+}
+
+#disparition{
+  opacity: 0;
+}
+
+#accueil{
+  background-color: #cecece;
+}
+
