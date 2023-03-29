@@ -4,34 +4,98 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JVBazar</title>
     <link rel="stylesheet" href="../css/jvbazar.css" />
     <link rel="stylesheet" href="../css/header.css" />
     <link rel="stylesheet" href="../css/footer.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-
-    <title>JVBazar</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="../JS/nuit.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"/>
   </head>
-  <body>
-    <header>
-      <div class="ico1 div-header">
-        <a href="Connexion.html"><img src="../img/Connexion.png" weight="80" width="80" class="connexion" /></a>
-        <a href="index.html"><img src="../img/logov2.png" weight="120" width="120" class="logo" /></a>
-        <a href="Rechercher.html"><img src="../img/Rechercher.png" weight="80" width="80" class="rechercher"/></a>
+  <body class="body">
+    <header class="div-header">
+      <div class="ico1">
+        <a href="Connexion.html">
+          <img
+            src="../img/Connexion2.png"
+            id="connexion-img"
+            class="iConnexion connexion"
+            weight="55"
+            width="55"
+          />
+        </a>
+        <a href="index.html">
+          <img
+            src="../img/logov2.png"
+            id="logo"
+            class="logo"
+            weight="120"
+            width="120"
+          />
+        </a>
+        <a href="Rechercher.html">
+          <img
+            src="../img/Rechercher2.png"
+            id="rechercher-img"
+            class="iRechercher rechercher"
+            weight="55"
+            width="55"
+          />
+        </a>
       </div>
       <nav class="ico2">
-          <a href="Guide.html"><img src="../img/Guide.png" weight="90" width="90" class="guide" /></a>
-        <a href="#"><img src="../img/ph_moon-thin.png" weight="40" width="40" class="nuit" /></a>
+        <a href="Guide.html">
+          <img
+            src="../img/Guide.png"
+            id="guide-img"
+            class="iGuide guide"
+            weight="90"
+            width="90"
+          />
+        </a>
+        <img
+          class="iNuit"
+          src="../img/ph_moon-thin.png"
+          id="night-mode-btn"
+          weight="40"
+          width="40"
+          onclick="toggleNightMode()"
+        />
       </nav>
     </header>
-    
-    <main>
-    </main>
+<main>
 
+</main>
     <footer>
-      <a href="qui somme nous.html"><img id="opt" src="../img/Qui somme nous v2.png"width="170" ></a>
-      <a href="contactez-nous.html"><img id="opt" src="../img/Contactez nous v2.png" alt="" width="170" ></a>
-      <a href="CGU.html"><img id="opt" src="../img/CGU v2.png"" alt="" width="70" ></a>
-      <a href="laissezunavis.html"><img id="opt" src="../img/Laissez un avis v2.png" alt="" width="170" ></a>
+      <a href="qui somme nous.html">
+        <img
+          id="qsn"
+          class="iQuiSommeNous"
+          src="../img/Qui somme nous v2.png"
+          width="170"
+        />
+      </a>
+      <a href="contactez-nous.html">
+        <img
+          id="cn"
+          class="iContactezNous"
+          src="../img/Contactez nous v2.png"
+          alt=""
+          width="170"
+        />
+      </a>
+      <a href="CGU.html">
+        <img id="cgu" class="iCGU" src="../img/CGU v2.png" alt="" width="70" />
+      </a>
+      <a href="laissezunavis.html">
+        <img
+          id="lua"
+          class="iLaissezUnAvis"
+          src="../img/Laissez un avis v2.png"
+          alt=""
+          width="170"
+        />
+      </a>
     </footer>
   </body>
 </html>

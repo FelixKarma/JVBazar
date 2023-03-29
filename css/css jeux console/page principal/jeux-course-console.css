@@ -1,0 +1,59 @@
+main{
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.titre-f1{
+    margin-left: 10px;
+}
+
+.titre-project-cars3{
+    margin-left: 10px;
+}
+
+hr{ 
+    border: none;
+    border-top: 10px solid white;
+}
+
+img{
+    float: right;
+    margin-right: 2%;
+}
+
+
+.forcesetfaiblesses {
+    display: flex;
+    justify-content:space-around;
+    padding: 20px;
+}
+
+table {
+    border: 1px solid;
+    border-radius: 5%;
+    border-spacing: 0px;
+    text-align: justify;
+    width: 66%;
+}
+ th, td {
+    padding: 10px;
+    width: 50%;
+ }
+
+h2{
+    margin-left: 20px;
+
+}
+
+
+p{ padding: 25px;
+    max-width: 35% ;
+}
+
+tr:nth-of-type(2n){
+    background-color: gray;
+}
+
+h1 {
+    text-align: center;
+}

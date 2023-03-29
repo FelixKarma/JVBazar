@@ -10,21 +10,62 @@
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/jvbazar.css">
     <link rel="stylesheet" href="../css/contactez-nous.css">
+    <link rel="stylesheet" href="../css/index.css">
 
 </head>
 <body>
 
-  <header>
-    <div class="ico1 div-header">
-      <img src="../img/Connexion.png" weight="80" width="80" class="connexion" />
-      <img src="../img/Sans titre.png" weight="120" width="120" class="logo" />
-      <img src="../img/Rechercher.png" weight="80" width="80" class="rechercher"/>
-    </div>
-    <nav class="ico2">
-      <img src="../img/Guide.png" weight="90" width="90" class="guide" />
-      <img src="../img/ph_moon-thin.png" weight="40" width="40" class="nuit" />
-    </nav>
-  </header>
+  <body class="body">
+    <header class="div-header">
+      <div class="ico1">
+        <a href="Connexion.html">
+          <img
+            src="../img/Connexion2.png"
+            id="connexion-img"
+            class="iConnexion connexion"
+            weight="55"
+            width="55"
+          />
+        </a>
+        <a href="index.html">
+          <img
+            src="../img/logov2.png"
+            id="logo"
+            class="logo"
+            weight="120"
+            width="120"
+          />
+        </a>
+        <a href="Rechercher.html">
+          <img
+            src="../img/Rechercher2.png"
+            id="rechercher-img"
+            class="iRechercher rechercher"
+            weight="55"
+            width="55"
+          />
+        </a>
+      </div>
+      <nav class="ico2">
+        <a href="Guide.html">
+          <img
+            src="../img/Guide.png"
+            id="guide-img"
+            class="iGuide guide"
+            weight="90"
+            width="90"
+          />
+        </a>
+        <img
+          class="iNuit"
+          src="../img/ph_moon-thin.png"
+          id="night-mode-btn"
+          weight="40"
+          width="40"
+          onclick="toggleNightMode()"
+        />
+      </nav>
+    </header>
       <main>
 
         <br>   
@@ -56,11 +97,37 @@
         
         </main>
         <footer>
-          <a href="qui somme nous.html"><img id="opt" src="../img/Qui somme nous v2.png"width="170" ></a>
-          <a href="contactez-nous.html"><img id="opt" src="../img/Contactez nous v2.png" alt="" width="170" ></a>
-          <a href="CGU.html"><img id="opt" src="../img/CGU v2.png" alt="" width="70" ></a>
-          <a href="laissezunavis.html"><img id="opt" src="../img/Laissez un avis v2.png" alt="" width="170" ></a>
+          <a href="qui somme nous.html">
+            <img
+              id="qsn"
+              class="iQuiSommeNous"
+              src="../img/Qui somme nous v2.png"
+              width="170"
+            />
+          </a>
+          <a href="contactez-nous.html">
+            <img
+              id="cn"
+              class="iContactezNous"
+              src="../img/Contactez nous v2.png"
+              alt=""
+              width="170"
+            />
+          </a>
+          <a href="CGU.html">
+            <img id="cgu" class="iCGU" src="../img/CGU v2.png" alt="" width="70" />
+          </a>
+          <a href="laissezunavis.html">
+            <img
+              id="lua"
+              class="iLaissezUnAvis"
+              src="../img/Laissez un avis v2.png"
+              alt=""
+              width="170"
+            />
+          </a>
         </footer>
+        <script src="../js/nuit.js"></script>
 
 
 </body>
